@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: #eee;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 90px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+}
+
+#left-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 30%;
+    height: 100%;
+    margin: 7px;
+}
+
+#right-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 65%;
+    height: 100%;
+    margin-right: 0px;
+}
+
+#search-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 10px;
+}
+
+#search-input {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#search-btn {
+    width: 100%;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+#search-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    /* height: 50%; */
+}
+
+#search-history {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+#search-history ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+#search-history-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* align-items: center; */
+    width: 100%;
+    height: 50%;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:#77776c;
+    background-color: rgb(137, 180, 209);
+    height: 1px;
+  }
+
+
+
+#todays-forecast {
+    width: 100%;
+    /* border: 1px solid */
+}
+
+.search-history-list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #6e12b9;
+    border-radius: 5px;
+    color: #eee;
+}
+
+#five-day-title {
+    display: flex;
+    justify-content: center;
+}
+
+#five-day-forecast-cards {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    border-radius: 5px;
+    color: #000000;
+}
